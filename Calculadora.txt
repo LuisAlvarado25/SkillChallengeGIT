@@ -3,4 +3,8 @@ public class Calculadora {
     public static int suma(int numero1, int numero2) {
         return numero1 + numero2;
     }
+    // Función para restar dos números
+    public static int resta(int numero1, int numero2) {
+        return numero1 - numero2;
+    }
 }
