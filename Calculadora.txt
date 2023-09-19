@@ -21,3 +21,21 @@ public class Calculadora {
             return (double) numero1 / numero2;
         }
 }
+
+
+ public static void main(String[] args) {
+        int numeroA = 10;
+        int numeroB = 5;
+
+        // Realizar operaciones
+        int resultadoSuma = suma(numeroA, numeroB);
+        int resultadoResta = resta(numeroA, numeroB);
+        int resultadoMultiplicacion = multiplicacion(numeroA, numeroB);
+        double resultadoDivision = division(numeroA, numeroB);
+
+        // Imprimir resultados
+        System.out.println("Suma: " + resultadoSuma);
+        System.out.println("Resta: " + resultadoResta);
+        System.out.println("Multiplicación: " + resultadoMultiplicacion);
+        System.out.println("División: " + resultadoDivision);
+    }
