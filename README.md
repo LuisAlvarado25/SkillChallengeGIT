@@ -19,7 +19,7 @@
 
 - **git branch:** Lista todas las ramas en el repositorio y muestra la rama actual con un asterisco.
 
--**git checkout <rama>:** Cambia a una rama específica.
+- **git checkout <rama>:** Cambia a una rama específica.
 
 - **git merge <rama>:** Fusiona una rama con la rama actual.
 
